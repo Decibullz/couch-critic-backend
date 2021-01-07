@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+3.times do
+    Entertainment.create(
+       title: Faker::Movie.title,
+       image: Faker::LoremPixel.image,
+       rating: Faker::Number.within(range: 1..5),
+       review: Faker::TvShows::RickAndMorty.quote,
+       watch:  Faker::Lorem.words
+    )
+end
+
+puts "Seeded Database"

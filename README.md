@@ -1,24 +1,27 @@
-# README
+# Couch Critic
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Couch Critic is an app to for users to submit their own personal reviews of movies and tv shows.
 
-Things you may want to cover:
 
-* Ruby version
+## Technologies Used 
 
-* System dependencies
+- Ruby on Rails
+- PostgreSQL 13
+- Heorku
 
-* Configuration
 
-* Database creation
+## Trello Board for PM 
 
-* Database initialization
+[Click here](https://trello.com/b/BSdnyZ9u/couch-critic) to view Trello Board for Couch Critic 
 
-* How to run the test suite
+## ERD
+![CouchCritic](imgs/ERD.png)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Couch Critic Screenshots
 
-* ...
+![CouchCritic](imgs/CouchCritic.png)
+![CouchCritic](imgs/Reviews.png)
+
+## Backend Deployment
+[Click here]() to deploy backend

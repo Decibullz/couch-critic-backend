@@ -24,4 +24,4 @@ Couch Critic is an app to for users to submit their own personal reviews of movi
 ![CouchCritic](imgs/Reviews.png)
 
 ## Backend Deployment
-[Click here]() to deploy backend
+[Click here](https://couch-critic-api.herokuapp.com/) to see deployed backend
